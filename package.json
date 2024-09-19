@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "token-indexer",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "sentio build",
+    "gen": "sentio gen",
+    "test": "sentio test",
+    "upload": "sentio upload",
+    "postinstall": "sentio gen"
+  },
+  "dependencies": {
+    "@sentio/sdk": "^2.43.1",
+    "fuels": "^0.94.6"
+  },
+  "devDependencies": {
+    "@sentio/cli": "^2.21.2",
+    "typescript": "^5.5.2"
+  }
+}
